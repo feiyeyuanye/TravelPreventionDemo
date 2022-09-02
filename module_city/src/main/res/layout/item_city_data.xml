@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <variable
+            name="data"
+            type="com.example.module_city.bean.City" />
+    </data>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/llParent"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        tools:ignore="MissingDefaultResource">
+
+        <TextView
+            android:id="@+id/tvFirstLetter"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/frist_letter"
+            android:gravity="center_vertical"
+            android:paddingStart="15dp"
+            android:text='@{data.firstLetter}'
+            android:textColor="@color/light_gray"
+            android:textSize="16sp"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/tvDataDesc"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:paddingStart="15dp"
+            android:text="@{data.city}"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            tools:ignore="RtlSymmetry" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/frist_letter" />
+
+
+    </LinearLayout>
+
+</layout>

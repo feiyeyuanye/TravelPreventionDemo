@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">module_risk_level</string>
+    <string name="query_city_risk_level">风险等级地区查询</string>
+    <string name="unknown_data_type">未知的数据类型</string>
+</resources>

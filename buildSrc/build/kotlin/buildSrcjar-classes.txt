@@ -1,0 +1,1 @@
+/Users/jianghouren/AndroidStudioProjects/GitHubProjects/TravelPreventionDemo/buildSrc/build/classes/kotlin/main/Libs.class:/Users/jianghouren/AndroidStudioProjects/GitHubProjects/TravelPreventionDemo/buildSrc/build/classes/kotlin/main/Versions.class

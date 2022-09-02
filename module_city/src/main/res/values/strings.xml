@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">module_city</string>
+    <string name="query_city_data">查询城市数据</string>
+    <string name="wait_please">请稍后</string>
+</resources>
