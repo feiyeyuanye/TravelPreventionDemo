@@ -4,6 +4,7 @@
     package="com.example.travelpreventiondemo">
 
     <application
+        tools:replace="android:icon,android:roundIcon"
         android:name="com.example.appbase.config.BaseApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
