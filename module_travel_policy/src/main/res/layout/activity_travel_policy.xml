@@ -155,7 +155,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="20dp"
-                                android:text='@{bean.from_info.city_name != null ? "进" + bean.from_info.city_name:""}'
+                                android:text='@{bean.from_info.city_name != null ? "（高风险地区）进" + bean.from_info.city_name:""}'
                                 android:textColor="@color/black"
                                 android:textSize="17sp" />
                             <TextView
@@ -163,6 +163,20 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="10dp"
                                 android:text='@{bean.from_info.high_in_desc}'
+                                android:textColor="@color/dark"
+                                android:textSize="14sp" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="20dp"
+                                android:text='@{bean.from_info.city_name != null ? "（低风险地区）进" + bean.from_info.city_name:""}'
+                                android:textColor="@color/black"
+                                android:textSize="17sp" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:text='@{bean.from_info.low_in_desc}'
                                 android:textColor="@color/dark"
                                 android:textSize="14sp" />
                         </LinearLayout>
@@ -230,7 +244,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="20dp"
-                                android:text='@{bean.to_info.city_name != null? "进" + bean.to_info.city_name:""}'
+                                android:text='@{bean.to_info.city_name != null? "（高风险地区）进" + bean.to_info.city_name:""}'
                                 android:textColor="@color/black"
                                 android:textSize="17sp" />
                             <TextView
@@ -238,6 +252,20 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="10dp"
                                 android:text='@{bean.to_info.high_in_desc}'
+                                android:textColor="@color/dark"
+                                android:textSize="14sp" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="20dp"
+                                android:text='@{bean.to_info.city_name != null? "（低风险地区）进" + bean.to_info.city_name:""}'
+                                android:textColor="@color/black"
+                                android:textSize="17sp" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:text='@{bean.to_info.low_in_desc}'
                                 android:textColor="@color/dark"
                                 android:textSize="14sp" />
                         </LinearLayout>
